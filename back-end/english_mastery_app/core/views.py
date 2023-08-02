@@ -1,10 +1,12 @@
 from django.http import HttpResponse
+from django.shortcuts import render
 
 def home(request):
-    return HttpResponse("Home Page")
+    context = {'message': 'Welcome to English Mastery App!'}
+    return render(request, 'core/home.html', context)
 
 def chatbot(request):
-    return HttpResponse("Chatbot Page")
+    return render(request, 'core/chatbot.html.html')
 
 def word(request):
-    return HttpResponse("Word of the Day Page")
+    return render(request, 'core/word.html')
