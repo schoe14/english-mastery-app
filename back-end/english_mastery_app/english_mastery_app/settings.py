@@ -35,8 +35,8 @@ AUTHENTICATION_BACKENDS = (
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'API': {
-            'client_id': '404333139748-m7mf9t2sala8oomd5b4ltcailgt0t02v.apps.googleusercontent.com',
-            'secret': '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',
+            'client_id': '',
+            'secret': '',
             'key': '',
         }
     }
